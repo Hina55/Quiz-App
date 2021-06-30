@@ -1,0 +1,189 @@
+html,body{
+  height: 100%;
+  background-image: url('../media/play.png');
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ margin: 0;
+}
+
+.startQuiz {
+    
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.btn{
+    
+   position: absolute;
+    top: 80%;
+    left: 43%;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-radius: 30px;
+     background-color: white;
+  border: none;
+  cursor: pointer;
+
+  color: black;
+  width: 15vw;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+.choice-container
+{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 28%;
+    font-size: 1.4rem;
+    border:0.1rem solid rgb(86,165,235,0.25);
+    background-color: #4f566b;
+}
+.choice-text , .choice-prefix
+{
+    padding-left: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-family: calibri;
+    color: white;
+}
+
+#question{
+  text-align: center; 
+  color: white; 
+  font-family: calibri; 
+  font-style: normal; 
+  font-size: 28px;
+}
+
+#quesContainer{
+border-radius: 20px; background: linear-gradient(to right, #003399 0%, #0099cc 100%);; 
+width: 30%; 
+height: 15vh; 
+margin-top: 3%;
+padding: 2%;
+}
+
+#gameContain{
+  visibility: hidden; 
+  display: flex; 
+  flex-wrap: wrap; 
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+  height: 100vh;
+  background-image: url('../media/Background_questions.png');
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ margin: 0;
+}
+#endContain{ 
+    margin-right: -130%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+
+
+.infoText{
+  position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     background-color: transparent; 
+  border: none;
+  color: white;
+  width: 35vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.feedbacktext{
+  position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     background-color: transparent; 
+  border: none;
+  color: white;
+  width: 35vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nextAgainBtn{
+  position: absolute;
+    top: 80%;
+    left: 65%;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+     background-color: white; 
+  border: none;
+  cursor: pointer;
+  color: black;
+  width: 15vw;
+  text-align: center;
+  display: inline-block;
+  
+}
+.nice {
+    font-size: 35px;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    width: 55px;
+    height: 38px;
+    border: 3px solid white;
+   display: inline-block;
+}
+#playAgainBtnn{
+  visibility: hidden;
+}
+
